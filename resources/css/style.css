@@ -17,19 +17,20 @@ body {
 }
 
 .contact {
-  font-size: 38px;
+  font-size: 42px;
   text-align: center;
   color: mediumaquamarine;
+  margin: 40px;
 }
 
 .container-1 {
   display: inline-flex;
   flex-direction: column;
-  margin: 15px;
+  margin: 25px;
 }
 
 .container-1 div {
-  border: 1px #ccc solid;
+  border: 3px #15504E solid;
   padding: 10px;
 
 }
@@ -47,8 +48,11 @@ body {
 
 }
 
-.box-4 {
 
+
+.box-1 h3 {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* Header */
@@ -67,7 +71,7 @@ header {
   font-weight: bold;
   top: 0;
   left: 0;
-  background-color: orange;
+  background-color: #15504E;
 
 
 }
@@ -86,10 +90,57 @@ header {
 }
 
 .logo span {
-  color: mediumaquamarine;
+  color: #CEBB6C;
   font-size: 24px;
 }
 
 header nav {
   padding-right: 40px;
+  text-decoration: none;
 }
+
+/* Links */
+
+/* unvisited link */
+a:link {
+    color: #CEBB6C;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.box-4 {
+
+}
+
+.info {
+
+}
+
+.title {
+
+}
+
+.copyright {
+
+}
+/* Footer */
